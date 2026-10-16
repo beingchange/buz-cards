@@ -1,0 +1,160 @@
+[
+  {
+    "id": "s01-classic",
+    "layout": "classic",
+    "truth": {
+      "name": "Daniel Okafor",
+      "company": "Harbourline Logistics",
+      "title": "Regional Sales Manager",
+      "emails": ["d.okafor@harbourline-logistics.com"],
+      "phones": ["+44 20 7946 0321", "+44 7700 900461"],
+      "websites": ["www.harbourline-logistics.com"],
+      "address": "14 Wharf Road, London N1 7GR, United Kingdom"
+    }
+  },
+  {
+    "id": "s02-columns",
+    "layout": "columns",
+    "truth": {
+      "name": "Priya Raman",
+      "company": "Kestrel Analytics",
+      "title": "Head of Partnerships",
+      "emails": ["priya.raman@kestrelanalytics.io"],
+      "phones": ["+1 (415) 555-0142"],
+      "websites": ["kestrelanalytics.io"],
+      "address": "500 Howard Street, Suite 300, San Francisco, CA 94105"
+    }
+  },
+  {
+    "id": "s03-redpanel",
+    "layout": "redpanel",
+    "truth": {
+      "name": "Marco Bellini",
+      "company": "Vortex Pump Systems",
+      "title": "Technical Director",
+      "emails": ["m.bellini@vortexpumps.it", "info@vortexpumps.it"],
+      "phones": ["+39 02 4859 2210"],
+      "websites": ["www.vortexpumps.it"],
+      "address": "Via Torino 82, 20123 Milano, Italy"
+    }
+  },
+  {
+    "id": "s04-dark",
+    "layout": "dark",
+    "truth": {
+      "name": "Sarah-Jane O'Connell",
+      "company": "Bluewater Marine Engineering",
+      "title": "Senior Project Engineer",
+      "emails": ["sj.oconnell@bluewater-marine.ie"],
+      "phones": ["+353 1 555 0198", "+353 87 555 0123"],
+      "websites": ["bluewater-marine.ie"],
+      "address": "Unit 4, Dockside Park, Dublin 2, Ireland"
+    }
+  },
+  {
+    "id": "s05-dense",
+    "layout": "dense",
+    "truth": {
+      "name": "Ahmed Al Mansoori",
+      "company": "Gulfstar Trading LLC",
+      "title": "Procurement Manager",
+      "emails": ["ahmed.mansoori@gulfstartrading.ae", "procurement@gulfstartrading.ae"],
+      "phones": ["+971 4 555 0177", "+971 50 555 0199", "+971 4 555 0178"],
+      "websites": ["www.gulfstartrading.ae"],
+      "address": "Office 1205, Business Bay Tower, P.O. Box 55210, Dubai, UAE"
+    }
+  },
+  {
+    "id": "s06-initials",
+    "layout": "minimal",
+    "truth": {
+      "name": "J. R. Whitfield",
+      "company": "Whitfield & Crane Architects",
+      "title": "Principal Architect",
+      "emails": ["jr@whitfieldcrane.com"],
+      "phones": ["(312) 555-0110"],
+      "websites": ["whitfieldcrane.com"],
+      "address": "220 W Kinzie St, Chicago, IL 60654"
+    }
+  },
+  {
+    "id": "s07-icons",
+    "layout": "icons",
+    "truth": {
+      "name": "Elena Petrova",
+      "company": "Northwind Solar",
+      "title": "Business Development Executive",
+      "emails": ["elena_petrova-2@northwind-solar.com"],
+      "phones": ["+49 30 5557 3321"],
+      "websites": ["www.northwind-solar.com"],
+      "linkedin": "linkedin.com/in/elena-petrova-solar",
+      "address": "Friedrichstraße 120, 10117 Berlin, Germany"
+    }
+  },
+  {
+    "id": "s08-qr",
+    "layout": "qr",
+    "truth": {
+      "name": "Tomás Herrera",
+      "company": "Cobalt Robotics Lab",
+      "title": "CTO & Co-Founder",
+      "emails": ["tomas@cobaltrobotics.co"],
+      "phones": ["+34 612 555 019"],
+      "websites": ["cobaltrobotics.co"],
+      "linkedin": "https://www.linkedin.com/in/tomas-herrera-cobalt",
+      "address": "Carrer de Pallars 99, 08018 Barcelona, Spain"
+    }
+  },
+  {
+    "id": "s09-caps",
+    "layout": "caps",
+    "truth": {
+      "name": "KEVIN NGUYEN",
+      "company": "Summit Ridge Capital",
+      "title": "Vice President, Investments",
+      "emails": ["knguyen@summitridgecap.com"],
+      "phones": ["+1 212 555 0187"],
+      "websites": ["summitridgecap.com"],
+      "address": "1 Liberty Plaza, 24th Floor, New York, NY 10006"
+    }
+  },
+  {
+    "id": "s10-lowcontrast",
+    "layout": "lowcontrast",
+    "truth": {
+      "name": "Grace Liu",
+      "company": "Lumen Interiors",
+      "title": "Interior Designer",
+      "emails": ["grace@lumeninteriors.sg"],
+      "phones": ["+65 6555 0134"],
+      "websites": ["lumeninteriors.sg"],
+      "address": "18 Kim Seng Road, #03-02, Singapore 239451"
+    }
+  },
+  {
+    "id": "s11-tricky-email",
+    "layout": "classic",
+    "truth": {
+      "name": "Kieran O'Neill",
+      "company": "North Bay Fisheries Ltd",
+      "title": "Operations Lead",
+      "emails": ["k_o-neill01@north-bay.co.uk"],
+      "phones": ["01632 960 471"],
+      "websites": ["www.north-bay.co.uk"],
+      "address": "Harbour Office, Quay Street, Oban PA34 5DB"
+    }
+  },
+  {
+    "id": "s12-sideline",
+    "layout": "sideline",
+    "truth": {
+      "name": "Fatima Zahra Benali",
+      "company": "Atlas Agro Export",
+      "title": "Export Coordinator",
+      "emails": ["f.benali@atlasagro.ma"],
+      "phones": ["+212 522 555 014", "+212 661 555 902"],
+      "websites": ["www.atlasagro.ma"],
+      "address": "Boulevard Zerktouni 45, Casablanca 20000, Morocco"
+    }
+  }
+]

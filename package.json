@@ -1,0 +1,61 @@
+{
+  "name": "buz-cards",
+  "version": "2.0.0",
+  "description": "Local-first business card scanner and contact book. Recognition runs on your own computer.",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning --env-file-if-exists=.env server/index.ts",
+    "start:phone": "node --disable-warning=ExperimentalWarning --env-file-if-exists=.env --env-file-if-exists=.env.phone server/index.ts",
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit -p tsconfig.server.json && tsc --noEmit -p tsconfig.web.json",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "eval": "node --disable-warning=ExperimentalWarning scripts/eval.ts --dir private-eval",
+    "eval:synthetic": "node --disable-warning=ExperimentalWarning scripts/eval.ts --synthetic",
+    "fixtures": "node scripts/synthetic/render-cards.mjs && python scripts/synthetic/compose.py",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@fontsource/public-sans": "^5.3.0",
+    "@techstark/opencv-js": "4.10.0-release.1",
+    "exceljs": "^4.4.0",
+    "express": "^5.3.0",
+    "fflate": "^0.8.2",
+    "idb": "^8.0.4",
+    "jsqr": "^1.4.0",
+    "lucide-react": "^0.468.0",
+    "onnxruntime-node": "~1.22.0",
+    "paddle-ocr-onnx-models": "0.2.0",
+    "pdfmarkdown-ppocrv5-models": "1.0.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "selfsigned": "^2.4.1",
+    "sharp": "^0.35.5",
+    "word-list": "^4.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56",
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "playwright": "1.56",
+    "prettier": "^3.9.10",
+    "qrcode": "^1.5.4",
+    "typescript": "5.9",
+    "vite": "^6.4.4",
+    "vite-plugin-pwa": "^1.3.0",
+    "vitest": "^3.2.7"
+  },
+  "type": "module",
+  "optionalDependencies": {
+    "heic-decode": "^2.1.0"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.18"
+  }
+}

@@ -1,0 +1,7 @@
+dist
+node_modules
+private-eval
+data
+tests/fixtures
+package-lock.json
+*.md

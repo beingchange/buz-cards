@@ -1,0 +1,23 @@
+node_modules/
+dist/
+data/
+.env
+.env.*
+!.env.example
+*.log
+coverage/
+test-results/
+playwright-report/
+.vite/
+*.tsbuildinfo
+
+# Private evaluation photos, ground truth and reports — never publish real people's cards
+private-eval/
+Cardsprivate-eval/
+**/reports/
+**/.cache/
+artifacts/
+_previous-version/
+
+# Owner-only notes
+PRD-BUILD-PROMPT.md

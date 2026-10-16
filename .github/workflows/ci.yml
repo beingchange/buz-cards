@@ -1,0 +1,30 @@
+name: CI
+on:
+  push:
+  pull_request:
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        node: [22, 24]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+      - run: npm ci
+        env:
+          ONNXRUNTIME_NODE_INSTALL_CUDA: skip
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+      - name: Synthetic recognition benchmark (fictional cards; not a real-card accuracy claim)
+        if: matrix.os == 'ubuntu-latest' && matrix.node == 24
+        run: npm run eval:synthetic
+      - name: Browser tests
+        if: matrix.os == 'ubuntu-latest' && matrix.node == 24
+        run: npx playwright install --with-deps chromium && npm run test:e2e

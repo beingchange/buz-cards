@@ -1,0 +1,50 @@
+[
+  {
+    "file": "s01-classic.jpg",
+    "id": "s01-classic"
+  },
+  {
+    "file": "s02-columns.jpg",
+    "id": "s02-columns"
+  },
+  {
+    "file": "s03-redpanel.jpg",
+    "id": "s03-redpanel"
+  },
+  {
+    "file": "s04-dark.jpg",
+    "id": "s04-dark"
+  },
+  {
+    "file": "s05-dense.jpg",
+    "id": "s05-dense"
+  },
+  {
+    "file": "s06-initials.jpg",
+    "id": "s06-initials"
+  },
+  {
+    "file": "s07-icons.jpg",
+    "id": "s07-icons"
+  },
+  {
+    "file": "s08-qr.jpg",
+    "id": "s08-qr"
+  },
+  {
+    "file": "s09-caps.jpg",
+    "id": "s09-caps"
+  },
+  {
+    "file": "s10-lowcontrast.jpg",
+    "id": "s10-lowcontrast"
+  },
+  {
+    "file": "s11-tricky-email.jpg",
+    "id": "s11-tricky-email"
+  },
+  {
+    "file": "s12-sideline.jpg",
+    "id": "s12-sideline"
+  }
+]
